@@ -77,3 +77,113 @@ Css for the footer
 .footertext{
     text-align: center;
 }
+
+/* Css for manage_admin*/
+
+
+
+/* this Css for add admin btn */
+
+#add-btn{
+    background-color: lightskyblue;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    float: left;
+    margin-top: 14px;
+}
+#add-btn:hover{
+    background-color: lightseagreen;
+}
+
+
+
+
+/* this is css of table*/
+.admintbl{
+    width: 100%;
+
+}
+
+.admintbl th{
+   border-bottom: 1px solid black;
+   padding: 2%;
+   text-align: left;
+
+}
+.admintbl tr td{
+    padding: 1%;
+
+
+}
+/* this is updata  btn in table */
+#update-btn{
+    background-color:rgb(103, 211, 205);
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+#update-btn:hover{
+    
+    background-color:
+    rgb(66, 160, 155) ;
+}
+/* this is del  btn in table */
+
+#del-btn{
+    background-color: rgb(255, 150, 150);
+        padding: 1%;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border: 1px solid black;
+        border-radius: 5px;
+        
+    
+}
+#del-btn:hover{
+    
+    background-color:rgb(255, 7, 7);
+}
+
+/*This css is for add_admin.php*/
+
+.addtable{
+    width: 32%;
+    margin-top: 4%;
+
+}
+
+.btn-add{
+    background-color:
+    rgb(45, 207, 199) ;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 8px;
+    height: 40px;
+    
+}
+
+.btn-add:hover{
+    background-color:rgb(103, 211, 205);
+}
+
+
+
+.addtable tr td{
+    padding:5px;
+    text-align: left;
+}
